@@ -69,6 +69,6 @@ Blocks common VPN protocols.
 
 ### AllowedBetween {}
   Settings:
-    - Start
-    - End
+-   Start
+-   End
 ### LimitDuration uint32
