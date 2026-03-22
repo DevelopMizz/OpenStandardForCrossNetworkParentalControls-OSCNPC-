@@ -16,18 +16,18 @@ Those endpoints are:
   "IPv4":<Device interface IPv4 address>, // valid combinations are (IPv4 & IPv6) or (IPv4) or (IPv6)
   "IPv6":<Device interface IPv6 address>,
   "Policies":{
-    DNSChildSafeBlocklist: <Boolean>, //enable or disable
-    ClientIsolation: <Boolean>, //enable or disable
-    DisallowProxies  <Boolean>, //enable or disable (DisallowVPNs will be forced to TRUE for this policy)
-    DisallowVPNs  <Boolean>, //enable or disable
-    AllwaysBlock:[<urls>],
-    AllowIfPermittedByNetwork:[<urls>],
-    LimitInternetTime:{
-      AllowedBetween {
-        Start:<DateTime>,
-        End:<DateTime>
+    "DNSChildSafeBlocklist": <Boolean>, //enable or disable
+    "ClientIsolation": <Boolean>, //enable or disable
+    "DisallowProxies": <Boolean>, //enable or disable (DisallowVPNs will be forced to TRUE for this policy)
+    "DisallowVPNs": <Boolean>, //enable or disable
+    "AllwaysBlock": [<urls>],
+    "AllowIfPermittedByNetwork": [<urls>],
+    "LimitInternetTime":{
+      "AllowedBetween":{
+        "Start": <DateTime>,
+        "End": <DateTime>
       },
-      LimitDuration: <int32> // Number of minutes per day
+      "LimitDuration": <int32> // Number of minutes per day
     }
   }
 }
