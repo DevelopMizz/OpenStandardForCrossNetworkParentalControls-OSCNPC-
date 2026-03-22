@@ -32,6 +32,22 @@ Those endpoints are:
   }
 }
 ```
+HTTP Response
+```JSON
+{
+  "NumberUsedOnce": <Byte[32]>
+}
+```
+- `HTTP POST` on `/ParentalControls/OSCNPC/Confirm` with payload
+```JSON
+{
+  "MAC":<Device interface MAC address>,
+  "IPv4":<Device interface IPv4 address>, // valid combinations are (IPv4 & IPv6) or (IPv4) or (IPv6)
+  "IPv6":<Device interface IPv6 address>,
+  "Confirmation": SHA256(<PolicyObject> + <NumberUsedOnce>)
+}
+```
+This confirms that the device that submitted the policy is routable and listening on the claimed IP Address.
 ## Optrions 
 ### MAC <String>
 As data type string this represents the MAC address of the network inteterface being used to connect to the network
