@@ -6,9 +6,9 @@ This repository contains and open standard that allows supporting devices to sha
 |------------------|------------------|
 | Alpha 0.0.0.1    | 2026-March-22nd  |
 
-## For [For network equiptment manufactures](https://github.com/DevelopMizz/OpenStandardForCrossNetworkParentalControls-OSCNPC-/blob/main/Network_Manufactures)
+For [For network equiptment manufactures](https://github.com/DevelopMizz/OpenStandardForCrossNetworkParentalControls-OSCNPC-/blob/main/Network_Manufactures)
 
-## For [Client device manufactures](https://github.com/DevelopMizz/OpenStandardForCrossNetworkParentalControls-OSCNPC-/blob/main/Mobile_Device_Manufacturers)
+For [Client device manufactures](https://github.com/DevelopMizz/OpenStandardForCrossNetworkParentalControls-OSCNPC-/blob/main/Mobile_Device_Manufacturers)
 
 ## Comon details
 The standard defines 2 HTTP endpoints that should be exposed by the gateway on TCP port 4080. 
