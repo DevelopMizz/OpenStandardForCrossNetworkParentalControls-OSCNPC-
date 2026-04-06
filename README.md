@@ -6,6 +6,9 @@ This repository contains and open standard that allows supporting devices to sha
 |------------------|------------------|
 | Alpha 0.0.0.1    | 2026-March-22nd  |
 
+## for [For network equiptment manufactures](https://github.com/DevelopMizz/OpenStandardForCrossNetworkParentalControls-OSCNPC-/blob/main/Network_Manufactures)
+
+
 The standard defines 2 HTTP endpoints that should be exposed by the gateway on TCP port 4080. 
 Those endpoints are:
 - `HTTP GET` on `/ParentalControls/OSCNPC`. This endpoint must return 200 OK if the standard is supported.
