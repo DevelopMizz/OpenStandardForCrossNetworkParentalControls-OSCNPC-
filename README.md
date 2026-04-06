@@ -18,6 +18,7 @@ For [For network equiptment manufactures](https://github.com/DevelopMizz/OpenSta
 
 For [Client device manufactures](https://github.com/DevelopMizz/OpenStandardForCrossNetworkParentalControls-OSCNPC-/blob/main/Mobile_Device_Manufacturers)
 
+For [Cybersecurity specailist](https://github.com/DevelopMizz/OpenStandardForCrossNetworkParentalControls-OSCNPC-/blob/main/Security_Controls.md) 
 ## Comon details
 The standard defines 2 HTTP endpoints that should be exposed by the gateway on TCP port 4080. 
 Those endpoints are:
