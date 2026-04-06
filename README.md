@@ -12,7 +12,8 @@ This repository contains and open standard that allows supporting devices to sha
 - Define standard parental controls that all compliant devices must support.
 - Allow parental controls settings to be enforced across diffrent networks.
 - Allow parents to control the duration of internet use, and for this to be enforced at both the device and network level.
-- Do the above securly in a way that resists abuse.
+- Do the above securly in a way that resists misuse.
+
 For [For network equiptment manufactures](https://github.com/DevelopMizz/OpenStandardForCrossNetworkParentalControls-OSCNPC-/blob/main/Network_Manufactures.md)
 
 For [Client device manufactures](https://github.com/DevelopMizz/OpenStandardForCrossNetworkParentalControls-OSCNPC-/blob/main/Mobile_Device_Manufacturers)
