@@ -8,7 +8,7 @@ This repository contains and open standard that allows supporting devices to sha
 
 ## Objectivres
 - Make it easy for parents to enable network based parental controls for a specific device.
-- Protect network based parental controls with existing device protections instead of using proof of identity for mass age-assurance.
+- Protect network based parental controls with existing device protections instead of requiring expensive and potentally risky mass age-assurance platforms.
 - Define standard parental controls that all compliant devices must support.
 - Allow parental controls settings to be enforced across diffrent networks.
 - Allow parents to control the duration of internet use, and for this to be enforced at both the device and network level.
