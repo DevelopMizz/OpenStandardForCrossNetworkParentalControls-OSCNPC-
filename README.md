@@ -78,13 +78,20 @@ Implies `{DisallowVPNs = TRUE}`
 Blocks common VPN protocols.
 
 ### AllwaysBlock String[]
+This policy takes an array of IPs and DNS names. The network should allways block items in the list
 
 ### AllowIfPermittedByNetwork" String[]
+This pollicy states that a DNS name or IP address should be whitlested unless it is otherwise blocked.
 
 ### LimitInternetTime {}
+This is a parent object for the below to policies
 
 ### AllowedBetween {}
   Settings:
 -   Start
 -   End
+This setting takes 2 times as ISO 8601 time strings that at what time internet access should be unlocked, and at what times it should be restricted. 
+
+
 ### LimitDuration uint32
+This takes a Byte which indicates the number of hours that the device should be allowed internet access.
