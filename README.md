@@ -1,11 +1,17 @@
 # OpenStandardForCrossNetworkParentalControls-OSCNPC-
 This repository contains and open standard that allows supporting devices to share parental control policies with any network they join that implaments the standard.
 
-## Overview
+## Version
 | Standard version | Publication date |
 |------------------|------------------|
 | Alpha 0.0.0.1    | 2026-March-22nd  |
 
+## Objectivres
+- Make it easy for parents to enable network based parental controls for a specific device.
+- Protect network based parental controls with existing device protections instead of using proof of identity for mass age-assurance.
+- Define standard parental controls that all compliant devices must support.
+- Allow parental controls settings to be enforced across diffrent networks.
+- Allow parents to control the duration of internet use, and for this to be enforced at both the device and network level.
 For [For network equiptment manufactures](https://github.com/DevelopMizz/OpenStandardForCrossNetworkParentalControls-OSCNPC-/blob/main/Network_Manufactures.md)
 
 For [Client device manufactures](https://github.com/DevelopMizz/OpenStandardForCrossNetworkParentalControls-OSCNPC-/blob/main/Mobile_Device_Manufacturers)
