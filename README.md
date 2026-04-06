@@ -67,10 +67,10 @@ This takes a configuration object specifing the policy to be applied.
 ### DNSChildSafeBlocklist <Byte>
 This accepts a byte indicating both, whether a DNS blocklist is enabled, and the how strict that blocklist is.
 Options are
-- `0 = disabled`
-- `1 = light`
-- `2 = moderate`
-- `3 = strict`
+- `0 = disabled` No protection
+- `1 = light` Some protection but priorites serice quality.
+- `2 = moderate` Protect the user but try not to break sites that do not contain restricted content.
+- `3 = strict` Block traffic, break safe sites if needed.
 
 ### ClientIsolation <Boolean>
 Where spported the client device should note be allowed to talk to other devices on the network.  
