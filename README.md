@@ -13,6 +13,7 @@ For [Client device manufactures](https://github.com/DevelopMizz/OpenStandardForC
 ## Comon details
 The standard defines 2 HTTP endpoints that should be exposed by the gateway on TCP port 4080. 
 Those endpoints are:
+NOTE 4080 should be replaced with an IANA registered port before real world adoption.
 - `HTTP GET` on `/ParentalControls/OSCNPC`. This endpoint must return 200 OK if the standard is supported.
 - `HTTP POST` on `/ParentalControls/OSCNPC` with payload
 ```JSON
